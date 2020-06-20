@@ -1,0 +1,95 @@
+:root {
+    --azul: #1E234B;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+    
+}
+.cabecalho .container {
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+.cabecalho ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+.cabecalho ul li {
+    padding: 50px 25px;
+}
+.cabecalho ul li a {
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.cabecalho .data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--azul);
+}
+.cabecalho .data .hora {
+    font-size: 38px;
+    margin-right: 10px;
+}
+.cabecalho .data .dia {
+    font-size: 12px;
+}
+.logo{
+    margin: auto;
+}
+.hero {
+    background-color:#00CCFF;
+    color: white;
+}
+.hero .container{
+    display: flex;
+    flex-direction: row;
+}
+.h1{
+    font-weight: bold;
+}
+.esquerda {
+    width: 30%;
+}
+.direita{
+    width: 70%;
+}
+.direita .personagem{
+    max-width: 100%;
+
+}
+.recomendados ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.recomendados .container{
+    display: flex;
+    flex-direction: column;
+} 
+.botaoAssistir{
+    font-size: 14;
+    border-radius: 30px;
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    color: var(--azul);
+
+}
+.Filmes_recomendados_lista li img{
+    max-width: 100%;
+}
+.Filmes_recomendados_lista{
+    padding: 0px;
+}
